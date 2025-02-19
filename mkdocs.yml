@@ -1,0 +1,13 @@
+site_name: My Project Documentation
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.superfences
